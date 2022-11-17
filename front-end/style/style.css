@@ -1,0 +1,225 @@
+/* 
+RESET CSS
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* HODLER TEMP STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;900&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(35, 110, 208);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(245, 106, 64);
+    text-decoration: none;
+}
+
+body>div {
+    flex: 1 1 50%;
+}
+
+.web3InteractionPart {
+    padding: 3rem;
+}
+
+.promoPart {
+    background: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promoPart h1 {
+    color: #FAFAD2;
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 900;
+}
+
+.demoInfo {
+    font-size: 1rem;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.mainIdea {
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.mainIdea p {
+    padding-bottom: 1rem;
+}
+
+.formToHodl button {
+    padding: 0.6rem;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+.formToHodl button:hover {
+    background-color: #FAFAD2;
+}
+
+.formToHodl label {
+    display: block;
+}
+
+.formToHodl p {
+    padding: 0.8rem;
+}
+
+.formToHodl input {
+    line-height: 2.5;
+}
+
+.otherPagesLinks a {
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 1rem;
+}

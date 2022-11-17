@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLWAY - HODL until the bull run with truflation</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <div class="web3InteractionPart">
+
+        <div class="demoInfo">The site is under development, this is a demo version of the HODL project. You can look at
+            the smart contracts and frontend code <a href="https://github.com/rave147/hodler">in this github
+                repository</a>.</div>
+
+        <div class="mainIdea">
+            <p>Most bull runs start with a strengthening economy, and one of the main signs of economic improvement is
+                lower inflation.</p>
+
+            <p>This hodle smart contract is written using <a href="https://truflation.com/">truflation</a> data and will
+                unlock your crypto for trading only after inflation falls to the selected level.</p>
+        </div>
+
+        <div class="formToHodl">
+            <p><button id="connectMetaMask">Connect your MetaMask</button></p>
+
+            <p><label for="valueToHodl">Value to Hodl</label>
+                <input id="valueToHodl" placeholder="1" />
+            </p>
+
+            <p><label for="inflationToTarget">Target inflation</label>
+                <input id="inflationToTarget" placeholder="4" />
+            </p>
+
+            <p><button type="button" id="hodlIt"> HODL! </button>
+
+                <button id="withdrawHodledMoney">Withdraw hodled money</button>
+            </p>
+        </div>
+
+        <div class="otherPagesLinks">
+            <a href="/">Ethereum HODL</a><a href="/polygon-hodl/" id="polygonLink">Polygon HODL</a>
+        </div>
+
+    </div>
+
+    <div class="promoPart">
+        <h1>HODL!</h1>
+    </div>
+
+
+
+
+
+</body>
+
+<script src="./scripts/web3interactions.js" type="module"></script>
+
+</html>

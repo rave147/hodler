@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLWAY - Ethereum HODL</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="web3InteractionPart">
+
+        <div class="demoInfo">The site is under development, this is a demo version of the HODL project. You can look at
+            the smart contracts and frontend code <a href="https://github.com/rave147/hodler">in this github
+                repository</a>.</div>
+
+        <div class="mainIdea">
+            <p>This site is for those who know that one of the secrets of making money on cryptocurrency is HODL, but
+                can't resist exchanging their crypto for fiat or buying various no-name shi... altcoins.</p>
+            <p>There is a solution - the creation of a HODL smart contract that will store your crypto until it reaches
+                the exchange rate you have chosen, you will not have any other options to access your money except to
+                wait!</p>
+        </div>
+
+        <div class="formToHodl">
+            <p><button id="connectMetaMask">Connect your MetaMask</button></p>
+
+            <p><label for="valueToHodl">Value to Hodl</label>
+                <input id="valueToHodl" placeholder="1" />
+            </p>
+
+            <p><label for="priceToTarget">Target Price (in USD)</label>
+                <input id="priceToTarget" placeholder="1000" />
+            </p>
+
+            <p><button type="button" id="hodlIt"> HODL! </button>
+
+                <button id="withdrawHodledMoney">Withdraw hodled money</button>
+            </p>
+        </div>
+
+        <div class="otherPagesLinks">
+            <a href="/polygon-hodl/" id="polygonLink">Polygon HODL</a><a href="/truflation-hodl/"
+                id="truflationLink">HODL until the bull
+                run
+                (Truflation)</a>
+        </div>
+
+    </div>
+
+    <div class="promoPart">
+        <h1>HODL!</h1>
+    </div>
+
+
+
+
+
+</body>
+
+<script src="./scripts/web3interactions.js" type="module"></script>
+
+</html>
